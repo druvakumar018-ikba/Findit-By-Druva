@@ -1,0 +1,24 @@
+{
+  "name": "findit-lost-and-found-platform",
+  "version": "1.0.0",
+  "description": "FindIt - Smart Lost and Found Platform (Full Stack Web Application in React, Flask, MySQL/PostgreSQL)",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "backend:start": "python backend/run.py"
+  },
+  "keywords": [
+    "react",
+    "flask",
+    "postgresql",
+    "mysql",
+    "lost-and-found",
+    "smart-matching",
+    "fullstack",
+    "python"
+  ],
+  "author": "Druva Kumar B",
+  "license": "MIT"
+}
